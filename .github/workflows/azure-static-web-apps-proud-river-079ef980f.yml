@@ -36,6 +36,8 @@ jobs:
           ASTRA_DB_ENDPOINT: ${{ secrets.ASTRA_DB_ENDPOINT }}
           ASTRA_DB_APPLICATION_TOKEN: ${{ secrets.ASTRA_DB_APPLICATION_TOKEN }}
           ASTRA_DB_COLLECTION: ${{ secrets.ASTRA_DB_COLLECTION }}
+          UPSTASH_REDIS_REST_URL: ${{ secrets.UPSTASH_REDIS_REST_URL }}
+          UPSTASH_REDIS_REST_TOKEN: ${{ secrets.UPSTASH_REDIS_REST_TOKEN }}
 
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
