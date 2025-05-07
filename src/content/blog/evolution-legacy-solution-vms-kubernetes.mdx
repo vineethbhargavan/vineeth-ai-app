@@ -1,0 +1,143 @@
+---
+date: 2024-01-15T11:25:05-04:00
+tags: ["kubernetes", "devops", "gitops", "automation"]
+title: "Evolution of a Legacy Solution: From VMs to Kubernetes"
+disable_share: false
+---
+
+Building upon our previous journey of modernizing a legacy SD-WAN solution, this article explores the next phase of our DevOps transformation. While our initial strategic approach laid important groundwork, we discovered that true scalability and maintainability required a more comprehensive solution leveraging modern container orchestration and GitOps practices.
+
+### The Need for Evolution
+
+Our previous strategic solution, while an improvement, revealed several limitations:
+- Limited scalability with traditional VM deployments
+- Manual intervention points in deployment processes
+- Fragmented repository structure
+- Suboptimal artifact management
+- Complex environment isolation
+- Basic monitoring capabilities
+
+### The New Strategic Vision
+
+The evolution demanded a complete rethink of our infrastructure and deployment strategy, centered around:
+- Kubernetes for container orchestration
+- GitOps for declarative infrastructure
+- Automated edge device management
+- Streamlined repository structure
+- Enhanced security measures
+- Improved monitoring and observability
+
+### Key Components of the Transformation
+
+#### Infrastructure Modernization
+<Image 
+  src="/blog/images/normalised_k8s_evolution.png"
+  alt="Kubernetes Infrastructure"
+  width={1920}
+  height={1080}
+  caption="New Kubernetes-based Infrastructure"
+/>
+
+- **Kubernetes Adoption**: Leveraging OVH Cloud's managed Kubernetes service
+  - Namespace-based isolation for environments
+  - Resource quotas and limits
+  - Built-in high availability
+  - Simplified scaling operations
+
+#### GitOps Implementation
+- **ArgoCD Integration**:
+  - Declarative deployments
+  - Automated sync between Git and cluster state
+  - Environment-specific configurations
+  - Rollback capabilities
+
+#### Security Enhancements
+- **Identity and Access Management**:
+  - Keycloak integration with OIDC
+  - Role-based access control (RBAC)
+  - Environment isolation
+  - Kubernetes secrets management
+
+- **HashiCorp Vault Integration**:
+  - Secrets management
+  - Dynamic credentials
+  - Environment-specific secret stores
+
+#### Repository and Artifact Management
+- **Repository Consolidation**:
+  - Streamlined repository structure
+  - Clear separation of concerns
+  - Improved version control
+  - Standardized CI/CD pipelines
+
+- **Artifact Management**:
+  - Updated Nexus repository
+  - S3 integration for artifact storage
+  - Cost-optimized storage solutions
+
+#### Edge Device Automation
+- **Ansible Automation**:
+  - Templated configurations
+  - Automated deployments
+  - Consistent state management
+  - Reduced human error
+
+#### Monitoring and Observability
+- **Netdata Implementation**:
+  - Real-time monitoring
+  - Simplified deployment
+  - Reduced overhead compared to Prometheus/Grafana
+  - Enhanced visibility into system health
+
+### Results and Benefits
+
+1. **Improved Scalability**:
+   - Elastic scaling based on demand
+   - Environment isolation without resource waste
+   - Simplified capacity management
+
+2. **Enhanced Security**:
+   - Clear security boundaries
+   - Automated secret rotation
+   - Comprehensive audit trails
+   - Standardized access controls
+
+3. **Operational Efficiency**:
+   - Reduced deployment times
+   - Automated rollbacks
+   - Simplified troubleshooting
+   - Clear deployment trails
+
+4. **Cost Optimization**:
+   - Resource sharing through Kubernetes
+   - Optimized storage usage
+   - Environment-specific resource allocation
+
+### Lessons Learned
+
+1. **Importance of Platform Selection**:
+   The choice of OVH Cloud's managed Kubernetes service provided the right balance of control and maintenance overhead.
+
+2. **Value of GitOps**:
+   ArgoCD's declarative approach significantly reduced deployment errors and improved reliability.
+
+3. **Security Integration**:
+   Early integration of security tools and practices prevented future complications.
+
+4. **Monitoring Strategy**:
+   Choosing Netdata over traditional solutions proved beneficial for our use case.
+
+### Conclusion
+
+This transformation represents not just a technical upgrade but a fundamental shift in how we approach infrastructure and deployments. The combination of Kubernetes, GitOps, and automated edge management has created a more resilient, scalable, and maintainable platform.
+
+The success of this project also contributed to achieving the CKAD certification, demonstrating the practical value of hands-on experience with Kubernetes in real-world scenarios.
+
+### What's Next?
+
+- Further optimization of monitoring and alerting strategies
+- Enhanced automation for edge device management- Evaluation of k3s , lightweight Kubernetes solution!
+- Exploration of advanced Kubernetes features - security guardrails, network policies, and more in deployment(argocd)
+- Continued refinement of GitOps practices
+
+This evolution shows that modernization is an ongoing journey, not a destination, and staying current with technology trends while maintaining security and stability is key to long-term success.

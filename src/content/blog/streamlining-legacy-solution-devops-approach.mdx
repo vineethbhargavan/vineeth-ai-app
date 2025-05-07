@@ -1,0 +1,101 @@
+---
+date: 2023-12-02T11:25:05-04:00
+#description: "Esmeralda"
+tags: []
+title: "Streamlining a Legacy Solution: A DevOps Approach"
+disable_share: false
+---
+
+Imagine taking on a project where the challenge is not just revitalizing a few lines of code, but resuscitating a product born in the past with limited knowledge base. In this tech blog, we delve into the strategic and tactical moves involved in breathing new life into a Network as a Service (SD-WAN) product. The catch? Tight timelines, an absent knowledge base, and a laundry list of challenges.
+
+
+#### Challenges at a Glance:
+
+- Knowledge Vacuum: Initial developers or architects are no longer part of the team, leaving behind a black box.
+- Uncharted Waters: The product is untested for stress and security, lacks basic DevOps processes, and faces a swift delivery deadline.
+
+#### Understanding the Product:
+Before diving into the DevOps strategy, let's understand the product—on a high level:
+- It is a Network as a Service solution (SD-WAN).
+- Comprises of a few components , namely  a control plane , monitoring portal and Edges
+- Mobile and desktop apps connect to the edge to land into the network configured.
+- The initial version was deployed on virtual machines via a hypervisor module - running on a Baremetal as a service infrastructure (like the one provided by OVH)
+
+#### Product Lean Strategy:
+The plan is to make the product leaner by migrating to Docker containers, enhancing usability, and scalability. And later adopt K8s to orchestrate the components.
+
+## DevOps Strategy:
+#### Core Requirements:
+
+- Establish a DevOps workflow for the current product version.
+- Ensure scalability to adopt the Product Lean Strategy (Docker containers).
+- Segregate environments for different testing flavors.
+- Embrace agility through CI/CD.
+
+#### Tactical Solution:
+Considering time constraints, identify the quickest deployment approach, preferably automated but documented workflows are acceptable.
+
+#### Strategic Solution:
+Move towards stringent controls, security best practices, adopt GitOps, and minimize human intervention.
+
+
+## Attaining Tactical Milestones (0-2 months):
+
+#### Understanding the Product:
+Reverse engineer and collaborate with the longest-tenured Product Manager (1.5 years) to grasp the moving parts.
+
+#### Initial Design Analysis:
+(Click image to zoom)
+<Image 
+  src="/blog/images/initial.png"
+  alt="Initial Design"
+  width={800}
+  height={400}
+  caption="Initial Design Analysis"
+/>
+- Manual deployment with no pipelines.
+- Release management challenges due to hardcoded references.
+- Unregulated access to environments.
+
+#### Tactical Solution:
+(Click image to zoom)
+<Image 
+  src="/blog/images/tactical.png"
+  alt="Tactical Solution"
+  width={800}
+  height={400}
+  caption="Tactical Solution Diagram"
+/>
+- Refactor and enhance deployment scripts for multiple releases.
+- Introduce GitLab pipelines for component aggregation.
+- Create placeholders in pipelines for automation testing.
+
+## Security Scrutiny Phase:
+Post the deployment of tactical solution , a security audit was conducted internally (and externally) to review the gaps . A bunch of gaps were identified (marked in red in the above diagram). This along with other operational gaps , paved way for the strategic solution.
+
+## Strategic Solution:
+(Click image to zoom)
+<Image 
+  src="/blog/images/strategic.png"
+  alt="Strategic Solution"
+  width={800}
+  height={400}
+  caption="Strategic Solution Diagram"
+/>
+#### Automation Tools:
+
+- Automation UI – Playwright.
+- GitOps to drive configurations and infra settings through code.
+
+#### Infrastructure Automation:
+- Terraform for creating Vault configurations.
+- Link GitLab project and code with Terraform-Cloud.
+- Automate user configurations and firewall restrictions using Ansible Tower.
+
+#### Security Measures:
+- OS security and monitoring with Ubuntu Pro.
+- HashiCorp Vault for secure credential storage.
+
+
+## In Conclusion:
+This journey from a knowledge void to a well-orchestrated DevOps strategy showcases the importance of adaptability and strategic thinking in the fast-paced tech landscape. As we breathe new life into the product and its delivery mode,the focus is not just on ease of deployment  but on crafting a robust, secure, and scalable product ready for the demands of the market.

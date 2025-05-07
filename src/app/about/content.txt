@@ -1,0 +1,118 @@
+Experience
+Netlinkz Ltd ▪ Sydney
+Principal DevOps Engineer
+06/2023 – present
+•	DevOps Transformation: Spearheaded a 3-month transformation, accelerating development and deployment with Terraform, Ansible, and Jira-GitLab integration for real-time build updates. More details in my blog(chapter1)
+•	Infrastructure Automation: Leveraged Terraform Cloud and HashiCorp Vault for secret management; automated API testing within CI/CD pipelines. Ansible Tower for edge deployments.
+•	Code Review Best Practices: Implemented forking workflows, multi-layer approval processes, and environment-specific deployment modes (DEV, QA, PreProd).
+•	Pipeline Enhancements: Integrated API testing (Newman) and stress testing validation into GitLab pipelines for heavy load scenarios.
+•	Release Management: Established effective tagging, branching, and deployment strategies.
+•	Stress Testing Platform: Built and scaled a Docker-based IPsec simulation platform (500–1000 containers) with Prometheus/Grafana monitoring for performance metrics.
+•	AWS Device Farm: Created Appium-based test cases, inspiring custom stress testing platform development.
+•	On-Prem Deployments: Hands-on deployment on customer datacenters using HP ProLiant servers and ILO interfaces.
+•	Authentication & Authorization: Enhanced security with Keycloak across frontend (Vue.js, Next.js), backend (SpringBoot, Node.js, Go), EMQX, and Android apps.
+•	Kubernetes Orchestration: Transitioned to Kubernetes with Helm and ArgoCD for streamlined infrastructure and deployment management.
+•	General DevOps Hygiene: Led repo migrations and infrastructure cost management initiatives. Adopted Netdata as the logging and monitoring framework
+•	Networking: Experience with IPSec, GRE tunnels, BIRD routing, Site-to-Site VPN, and VPP through SD-WAN VPN solutions at Netlinkz.
+•	Certification : CKAD
+Transport For NSW ▪ Sydney
+Senior Cloud Engineer
+01/2022 – 06/2023
+•	IoT Platform Evaluation: Prototyped IoT solutions using AWS (IoT Core, Greengrass, Rekognition, etc.) and Azure (IoT Hub, Logic Apps, etc.) for transport projects, covering sensor data, file uploads, and video streaming.
+•	Infrastructure Deployment Framework: Developed a structured IAC framework with Terraform, Packer, and Ansible; integrated with Azure DevOps Pipelines and Terraform Cloud, reducing deployment time and improving maintainability.
+•	Web Application Transition: Migrated a .NET/React file transfer PoC to Azure App Service with Azure AD, optimized CosmosDB for search and pagination, and refactored the codebase for maintainability.
+•	Automated ETL Solution: Designed a near 100% automated ETL pipeline with Azure Data Factory, Key Vault, and Terraform Cloud, integrating notifications and handling large REST API calls to Oracle DB.
+•	Cost Optimization: Implemented Python-based AWS Lambda schedulers to minimize uptime for non-production workloads.
+•	Stakeholder Management: Ensured seamless collaboration throughout project transitions, driving successful outcomes.
+•	Microsoft Power Platform: Hands-on experience with Power Platform tools and capabilities.
+•	Certifications : Attempted - AWS Devops Professional , AZ-204 Azure solutions
+Digital Experience Labs ▪ Sydney
+Senior Cloud Engineer (DevOps) and Tech Lead
+05/2020 – 01/2022
+•	Platform Evaluation: Assessed AWS and Microsoft solutions for customer offerings.
+•	Infrastructure Management: Managed infrastructure with AWS Control Tower and CloudFormation.
+•	Secure Networking: Set up interconnections using AWS PrivateLink, Transit Gateway, and VPC Peering; configured OpenVPN Cloud with Azure AD SAML integration.
+•	Authentication: Utilized AWS Cognito for OAuth-based authentication.
+•	Cost Optimization: Developed scripts for instance usage monitoring, achieving cost savings.
+•	Monitoring: Implemented systems with Route 53 Health, AWS SNS, OpsGenie, and API Gateway-CloudWatch event tracking.
+•	Disaster Recovery: Managed RDS snapshots for backup and recovery.
+•	Data Migration: Conducted SQL to NoSQL migrations using AWS DMS.
+•	CI/CD Pipelines: Built pipelines with Azure DevOps for AWS resources and implemented AWS Stack Sets for infrastructure CI/CD.
+•	Database Management: Used Redgate for database change management.
+•	Identity Management: Designed identity systems leveraging EC2, RDS, API Gateway, and Lambda.
+•	Partnerships: Collaborated with Twilio and AWS on cloud-based contact center solutions.
+•	Full-Stack Development: Built a React application using AWS Amplify and associated services.
+Jet Interactive ▪ Sydney
+Cloud Telephony Solutions Engineer
+03/2017 – 05/2020
+•	Telephony Platform: Built a scalable telephony platform on AWS using Asterisk, handling 300+ calls/hour, leveraging EC2, Lambda, DynamoDB, RDS, ECS, and more.
+•	AWS Certification: Completed AWS Developer Associate certification.
+•	Microservices Implementation: Developed containerized microservices with Java, Node.js, and AWS Lambda on Amazon's container services.
+•	Call Flow Builder: Created a configurable call flow builder using Joint.js and Vue.js, integrating with microservices via REST APIs.
+•	Contact Center Solution: Designed a multi-tenant solution on Asterisk with Counterpath Soft client and Twilio SMS integration.
+•	Testing Framework: Built a Node.js-based call generator for performance testing of microservices.
+•	WebRTC Soft Client: Developed a secure WebRTC-based soft client with AWS Amplify, Auth0, and an open-source WebRTC gateway.
+•	Salesforce App Exchange: Spearheaded development and publishing of a managed package on Salesforce App Exchange.
+•	CTI Solution Evaluation: Analyzed Amazon Connect and Twilio for CTI integration with Salesforce.
+Powercom Interactive Media ▪ Sydney
+Telephony Solutions Specialist
+11/2015 – 03/2017
+•	Telephony Platform Migration: Migrated a telephony system from Dialogic to Asterisk 11 within three months.
+•	Node.js Applications: Built lightweight apps to monitor, manipulate call functionalities, and automate call simulation and validation.
+•	Real-Time Call Dashboard: Developed a dashboard using Sails.js, Google Charts, and Angular.js, improving call center operational efficiency.
+•	Monitoring & Alerts: Implemented a Node.js-based monitoring system for early fault detection in call connectivity and contact center operations.
+•	Change Management: Adopted Git to track IVR code and changes.
+•	Agile Practices: Improved development processes by introducing Agile methodologies and tools like JIRA for task and Sprint tracking.
+•	WebRTC Prototype: Prototyped a WebRTC app using an open-source SIP SDK and Asterisk 13 on Amazon Linux (EC2).
+Intelliverse Telecom ▪ Bangalore
+Technical Manager
+12/2013 – 09/2015
+•	Leadership: Led a team of 8 engineers as Technical Manager at Intelliverse, Atlanta, USA.
+•	Salesforce CTI Development: Built inbound call blast functionality using Node.js, Apex, Visualforce, and Force.com IDE; developed a CTI widget with HTML, CSS, and socket integration.
+•	Reporting Framework: Improved user experience by developing a reporting framework with HighCharts, replacing a primitive system.
+•	SIP Module Design: Designed SIP module using SIP Servlets, Java, WebLogic, and Dialogic Servers for announcement skipping, playing, and transfer features, meeting critical partner deadlines.
+•	CTI Integration: Acted as the point of contact for CTI integration with MSD CRM, managing API (SOAP) and socket workflows.
+•	Performance Optimization: Analyzed core dumps and fixed memory leaks; optimized Linux parameters to reduce voice delay issues, decreasing customer complaints by ~40%.
+•	Scrum Team Success: Led a team to deliver an email tracking application and CTI integration for Microsoft CRM, showcased at Microsoft Convergence Conference 2015, boosting company publicity.
+•	Agile Practices: Engaged product managers and used Agile boards to deliver features faster, reducing delivery time by 50%.
+Siemens LTD ▪ Chennai, Sydney, Munich
+Team Leader
+12/2010 – 11/2013
+•	Technical Expertise: Demonstrated full-stack development proficiency using Java, working with technologies like TETRA, SIP Protocol, JPA, Apache ActiveMQ, and design patterns (e.g., Singleton, Strategy). Improved system QoS and implemented best practices like SOLID, Spring framework, and memory profiling for robust software development.
+•	Leadership: Successfully managed teams, conducted training, and oversaw product commissioning. Acted as Scrum Master, coordinating cross-functional teams, managing sprints, and leading activities like Sprint demos and retrospectives to ensure efficient project delivery.
+Wipro ▪ India, Morocco
+Analyst Programmer
+10/2005 – 12/2010
+•	Technical Expertise: Gained exposure to IT programming languages such as Java and C++, along with database models, web fundamentals, and VOIP protocol.
+•	Professional Skills: Acquired experience in IT processes, cross-cultural customer handling, and effective stakeholder interaction while delivering under strict timelines.
+Personal Projects
+Full stack developer
+•	Catering Website: Developed a Vue.js-based web application hosted on AWS Amplify, leveraging DynamoDB, AWS SES, S3, and CodeCommit. Incorporated a headless content management system (Prismic) with SSL support using AWS Certificate Manager. (URL: sadias.com.au)
+•	AI Chatbot for Content Management: Building a full-stack project utilizing React, Next.js, Pinecone, and LangChain, integrated with Clerk for authentication. (Work in progress: vineethbhargavan.com)
+Education
+Anna University ▪ Chennai ▪ India
+Electrical and Electronics
+01/2005 – 12/2005
+Indira Gandhi National Open University ▪ Bangalore ▪ India
+Operations Management
+2007
+Certification
+AWS certified developer associate
+Burb suite certified - apprentice
+CKAD ▪ Linux Foundation
+Fundamentals of CyberSecurity ▪ UNSW
+Achievements
+•	Netlinkz - DevOps Transformation: Multiphased DevOps transformation in a short span of time. More details in my blog
+•	Transport for NSW - Infrastructure Reference Framework: Pioneered the successful design of IaaC and automation framework - in a short span of time.
+•	Digital Experience Labs - Legacy application transformation: Credited with outstanding achievement award.
+•	Siemens - Complete Product lifecycle: Techincal Leadership in taking the product through a successful journey from inception to commission - credited with the outstanding performance award
+Awards
+Elevate Outstanding Work Award
+2021
+Digital Experience Labs
+Siemens Puraskhar Award for Outstanding Performance
+2013
+Siemens
+Text
+FIND ME ONLINE
+Github: https://github.com/vineethbhargavan
