@@ -21,9 +21,9 @@ jobs:
           lfs: false
       - name: env setup
         run: |
-          export ASTRA_DB_ENDPOINT=${{secrets.ASTRA_DB_ENDPOINT}}
-          export ASTRA_DB_APPLICATION_TOKEN=${{secrets.ASTRA_DB_APPLICATION_TOKEN}}
-          export ASTRA_DB_COLLECTION=${{secrets.ASTRA_DB_COLLECTION}}
+          export ASTRA_DB_ENDPOINT=${{ secrets.ASTRA_DB_ENDPOINT }}
+          export ASTRA_DB_APPLICATION_TOKEN=${{ secrets.ASTRA_DB_APPLICATION_TOKEN }}
+          export ASTRA_DB_COLLECTION=${{ secrets.ASTRA_DB_COLLECTION }}
       - name: Build And Deploy
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v1
